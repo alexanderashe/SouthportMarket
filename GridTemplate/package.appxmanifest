@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="63202AsheA.SouthportMarket" Version="1.0.0.2" Publisher="CN=BEB062ED-1927-4FA5-820E-906239811601" />
+  <Properties>
+    <DisplayName>Southport Market</DisplayName>
+    <PublisherDisplayName>AsheA</PublisherDisplayName>
+    <Logo>images\tile_50x50.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="Southport Market" Logo="images\tile_150x150.png" SmallLogo="images\tile_30x30.png" Description="Southports Local Market" ForegroundText="light" BackgroundColor="#81A44D">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="images\tile_620x300.png" BackgroundColor="#81A44D" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
